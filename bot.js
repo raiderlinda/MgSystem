@@ -8,7 +8,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Casino ,!`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Melange System`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -17,7 +17,7 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`**- Hello , ${member} :cocktail: **
 **       - You Are in a Big Community :dove: **
-  **              - Casino ,! :black_heart:**`) 
+  **              - Melange :black_heart:**`) 
 }).catch(console.error)
 })
 
@@ -87,11 +87,6 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'ترحيب') {
-    msg.reply('**<<<<<<< Welcome To Victoria ,! >>>>>>>**');
-  }
-});
 
 client.on('message', msg => {
   if (msg.content === 'صباح الخير') {
@@ -523,7 +518,7 @@ client.on('message', message => {
                     اوامر ادارية
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
-                    مبرمج البوت [ @.Raider 🖤#9410 ]
+                    مبرمج البوت [ @~ Somz 🖤#2891  ]
 ╚[❖════════════❖]╝
  ❖-**kick <mention > ➾ **لطرد عضو
  ❖-**ban <mention > ➾**لطرد عضو للابد
@@ -542,7 +537,7 @@ client.on('message', message => {
  ❖-**close ➾ **اغلاق التذكرة
  ❖-**setvoice ➾ **لانشاء رووم صوتي
 ╔[❖════════════❖]╗
-                    لدخول السيرفر الخاص بلبوت [https://discord.gg/QqPcbER]
+
 ╚[❖════════════❖]╝
 ==================================================================
 ==================================================================
